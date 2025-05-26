@@ -26,14 +26,16 @@ export default function Navbar() {
         <ul className="text-white tracking-widest bg-white/5 backdrop-blur-3xl hidden lg:flex gap-12 pl-40 pr-16 relative">
           <div className="hidden xl:block h-px bg-white/25 w-8/12 absolute inset-y-1/2 right-11/12" />
           {menus.map((menu, i) => (
-            <li key={i} className="py-10 relative">
+            <li key={i} className="py-10 relative group">
               <Link href={menu == "home" ? "/" : menu}>
                 <span className="font-bold">0{i} </span>
                 {menu.toUpperCase()}
               </Link>
-              {(pathname.slice(1) == menu ||
-                (pathname == "/" && menu == "home")) && (
+              {pathname.slice(1) == menu ||
+              (pathname == "/" && menu == "home") ? (
                 <div className="absolute inset-x-0 h-1 bg-white bottom-0" />
+              ) : (
+                <div className="absolute inset-x-0 h-1 group-hover:bg-white/50 bottom-0" />
               )}
             </li>
           ))}
