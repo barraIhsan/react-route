@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="fixed top-0 inset-x-0 flex justify-between items-center container mx-auto py-6 xl:py-16 px-6 lg:pl-5 lg:pr-0 z-50">
+      <nav className="font-barlow-condensed fixed top-0 inset-x-0 flex justify-between items-center container mx-auto py-6 xl:py-16 px-6 lg:pl-5 lg:pr-0 z-50">
         <Link href="/">
           <Image
             src="/img/logo.svg"
