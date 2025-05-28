@@ -35,7 +35,7 @@ export default function Navbar() {
               (pathname == "/" && menu == "home") ? (
                 <div className="absolute inset-x-0 h-1 bg-white bottom-0" />
               ) : (
-                <div className="absolute inset-x-0 h-1 group-hover:bg-white/50 bottom-0" />
+                <div className="absolute inset-x-0 h-1 transition-colors duration-300 group-hover:bg-white/50 bottom-0" />
               )}
             </li>
           ))}
