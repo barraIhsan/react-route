@@ -17,7 +17,7 @@ export default function Destination() {
           <span className="text-white/25">02</span> Meet your crew
         </p>
         <div className="flex flex-col-reverse lg:flex-row-reverse gap-8 text-center lg:text-left">
-          <div className="size-56 sm:size-100 lg:size-135 flex-1 flex justify-center lg:justify-start mx-auto">
+          <div className="h-85 sm:h-140 lg:h-170 flex-1 flex justify-center lg:justify-start mx-auto">
             <Image {...data.img} alt={data.name} className="object-contain" />
           </div>
           <div className="flex-1 mx-auto flex flex-col gap-6 justify-between">
