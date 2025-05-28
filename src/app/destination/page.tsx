@@ -13,7 +13,7 @@ export default function Destination() {
     <body style={{ backgroundImage: `url(${background.src})` }}>
       <Navbar />
       <main className="text-white container mx-auto mt-48 mb-24 lg:mt-60 px-5">
-        <p className="uppercase sm:text-left text-center sm:text-3xl font-barlow-condensed tracking-widest mb-32">
+        <p className="uppercase sm:text-left text-center text-xl sm:text-3xl font-barlow-condensed tracking-widest mb-32">
           <span className="text-white/25">01</span> Pick your destination
         </p>
         <div className="flex flex-col lg:flex-row gap-28 text-center lg:text-left">
