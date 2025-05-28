@@ -17,12 +17,12 @@ export default function Destination() {
           <span className="text-white/25">02</span> Meet your crew
         </p>
         <div className="flex flex-col-reverse lg:flex-row-reverse gap-8 text-center lg:text-left">
-          <div className="h-85 sm:h-140 lg:h-170 flex-1 flex justify-center lg:justify-start mx-auto">
+          <div className="h-85 sm:h-140 lg:h-170 flex justify-center lg:justify-start mx-auto">
             <Image {...data.img} alt={data.name} className="object-contain" />
           </div>
-          <div className="flex-1 mx-auto flex flex-col gap-6 justify-between">
+          <div className="mx-auto flex flex-col gap-6 justify-between">
             <div />
-            <div className="mt-10 max-w-[60ch]">
+            <div className="max-w-[60ch]">
               <p className="uppercase text-lg sm:text-3xl text-white/50">
                 {data.role}
               </p>
