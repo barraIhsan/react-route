@@ -23,7 +23,7 @@ const bellefair = Bellefair({
 export const metadata: Metadata = {
   title: "Space",
   description: "Go to space",
-  icons: "/img/logo.svg",
+  icons: "/favicon.svg",
 };
 
 export default function RootLayout({
