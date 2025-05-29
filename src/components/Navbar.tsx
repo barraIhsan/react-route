@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import logo from "@/assets/logo.svg";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { twMerge } from "tailwind-merge";
@@ -15,7 +16,7 @@ export default function Navbar() {
       <nav className="font-barlow-condensed fixed top-0 inset-x-0 flex justify-between items-center container mx-auto py-6 xl:py-16 px-6 lg:pl-5 lg:pr-0 z-50">
         <Link href="/">
           <Image
-            src="/img/logo.svg"
+            src={logo}
             width={48}
             height={48}
             className="object-cover size-12"
