@@ -1,7 +1,7 @@
 import { StaticImageData } from "next/image";
-import douglas from "!/img/crew/douglas.png";
-import mark from "!/img/crew/mark.png";
-import victor from "!/img/crew/victor.png";
+import douglas from "@/assets/crew/douglas.png";
+import mark from "@/assets/crew/mark.png";
+import victor from "@/assets/crew/victor.png";
 
 interface structure {
   img: StaticImageData;

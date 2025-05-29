@@ -1,7 +1,7 @@
 import { StaticImageData } from "next/image";
-import launchVehicle from "!/img/technology/launch-vehicle.jpg";
-import spaceCapsule from "!/img/technology/space-capsule.jpg";
-import spaceport from "!/img/technology/spaceport.jpg";
+import launchVehicle from "@/assets/technology/launch-vehicle.jpg";
+import spaceCapsule from "@/assets/technology/space-capsule.jpg";
+import spaceport from "@/assets/technology/spaceport.jpg";
 
 interface structure {
   img: StaticImageData;

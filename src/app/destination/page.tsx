@@ -1,6 +1,6 @@
 "use client";
 import Navbar from "@/components/Navbar";
-import background from "!/img/bg-destination.jpg";
+import background from "@/assets/bg-destination.jpg";
 import { datas } from "@/data/destination";
 import { useState } from "react";
 import Image from "next/image";

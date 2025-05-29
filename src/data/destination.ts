@@ -1,8 +1,8 @@
 import { StaticImageData } from "next/image";
-import moon from "!/img/destination/moon.png";
-import mars from "!/img/destination/mars.png";
-import europa from "!/img/destination/europa.png";
-import titan from "!/img/destination/titan.png";
+import moon from "@/assets/destination/moon.png";
+import mars from "@/assets/destination/mars.png";
+import europa from "@/assets/destination/europa.png";
+import titan from "@/assets/destination/titan.png";
 
 interface structure {
   img: StaticImageData;
